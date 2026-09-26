@@ -200,6 +200,35 @@ table {
   text-align: left;
 }
 
+.task-search {
+  display: grid;
+  gap: 8px;
+  max-width: 440px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.task-search input {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--page);
+  color: var(--ink);
+  font: inherit;
+  padding: 10px 12px;
+}
+
+.task-search input:focus-visible {
+  outline: 3px solid var(--amber);
+  outline-offset: 2px;
+}
+
+.task-search-count {
+  margin: 8px 0 12px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
 th,
 td {
   border-bottom: 1px solid var(--line);
